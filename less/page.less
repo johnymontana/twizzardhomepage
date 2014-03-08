@@ -1,0 +1,55 @@
+body{
+	padding-top: 50px;
+}
+.page-container{
+	display: block;
+	width: 100%;
+	background: @white;
+	.jumbotron{
+		text-align: center;
+		.primary-gradient;
+
+		h1,p{
+			color: @white;
+		}
+	}
+	&.important{
+		.jumbotron{
+			.orange-gradient;
+		}
+	}
+	&.hashtag{
+		.jumbotron{
+			.purple-gradient;
+		}
+	}
+	.content{
+		.logo{
+			max-width: 450px;
+		}
+	}
+}
+.navbar{
+	margin-bottom: 0px;
+	border-radius: 0px;
+	.navbar-brand{
+		font-size: 3em;
+		color: @white;
+	}
+	ul{
+		li{
+			a{
+				color: @white;
+			}
+			&.active{
+				a{
+					background-color: @white;
+				}
+			}
+		}
+	}
+}
+.navbar-default{
+	background-color: @brand-primary;
+	border: none;
+}
