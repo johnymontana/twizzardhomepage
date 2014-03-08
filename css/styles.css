@@ -5844,10 +5844,10 @@ body {
   font-size: 3em;
   color: #ffffff;
 }
-.navbar ul li a {
+.navbar .nav li a {
   color: #ffffff;
 }
-.navbar ul li.active a {
+.navbar .nav li.active a {
   background-color: #ffffff;
 }
 .navbar-default {
