@@ -35,36 +35,36 @@ and open the template in the editor.
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
 			</nav>
-		<div class="page-container home" id="home">
+		<div class="page-container home clearfix" id="home">
 			<div class="jumbotron">
-				<h1>Everything you love about Twitter, NOTHING you hate!</h1>
-				<p>Take control of your timeline! Get tweets relevant to you. </p>
-				<p><a class="btn btn-success btn-lg" role="button" href="//twitter.com/Twizzardapp" target="_blank">FOLLOW US ON TWITTER</a></p>
+				<h1>Your Twitter Wizard</h1>
+				<p>Take control of your timeline! Get tweets relevant to you, now.</p>
+				<p><a class="btn btn-success btn-lg" role="button" href="//twizzard.herokuapp.com/auth/twitter" target="_blank">Sign in with Twitter</a></p>
 			</div>
 			<div class="content">
-				<img src="/images/twizzard-logo-1.png" class="center-block logo">
+				<img src="/images/twizzard-logo-1.png" class="center-block logo img-responsive">
 			</div>
 		</div>
 		
-		<div class="page-container important" id="important">
+		<div class="page-container clearfix important" id="important">
 			<div class="jumbotron">
 				<h1>Missing Important Content On Twitter?</h1>
-				<p>We manage your timeline and show you what you want to read.</p>
-				<p><a class="btn btn-success btn-lg" role="button" href="//twitter.com/Twizzardapp" target="_blank">FOLLOW US ON TWITTER</a></p>
+				<p>We manage your timeline and show you what you want to read. Tame the Tweet Blizzard with Twizzard.</p>
+				<p><a class="btn btn-success btn-lg" role="button" href="//twizzard.herokuapp.com/auth/twitter" target="_blank">Sign in with Twitter</a></p>
 			</div>
 			<div class="content">
-				<img src="/images/twizzard-logo-1.png" class="center-block logo">
+				<img src="/images/mbp.png" class="center-block mbp img-responsive">
 			</div>
 		</div>
 		
-		<div class="page-container hashtag" id="hashtag">
+		<div class="page-container clearfix hashtag" id="hashtag">
 			<div class="jumbotron">
-				<h1>Follow #hashtags In Your Timeline</h1>
-				<p>Keep track of the hashtags that are important to you. See hashtags in your timeline.</p>
-				<p><a class="btn btn-success btn-lg" role="button" href="//twitter.com/Twizzardapp" target="_blank">FOLLOW US ON TWITTER</a></p>
+				<h1>Twizzard, the frontpage of your Twitter network</h1>
+				<p>Don't waste time with infinite scrolling, let Twizzard curate your timeline.</p>
+				<p><a class="btn btn-success btn-lg" role="button" href="//twizzard.herokuapp.com/auth/twitter" target="_blank">Sign in with Twitter</a></p>
 			</div>
 			<div class="content">
-				<img src="/images/twizzard-logo-1.png" class="center-block logo">
+				<img src="/images/iphone.png" class="center-block iphone img-responsive">
 			</div>
 		</div>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -73,7 +73,7 @@ and open the template in the editor.
 			$(document).ready(function() {
 				var windowHeight = $(window).height();
 
-				$('.page-container').height(windowHeight-50);
+				$('.page-container').height(windowHeight);
 
 			});
 		</script>

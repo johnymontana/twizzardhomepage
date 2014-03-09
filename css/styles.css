@@ -5835,6 +5835,18 @@ body {
 }
 .page-container .content .logo {
   max-width: 450px;
+  display: block;
+  height: auto;
+}
+.page-container .content .mbp {
+  max-height: 400px;
+  display: block;
+  height: auto;
+}
+.page-container .content .iphone {
+  max-height: 400px;
+  display: block;
+  height: auto;
 }
 .navbar {
   margin-bottom: 0px;
